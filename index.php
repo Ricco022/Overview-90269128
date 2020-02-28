@@ -44,7 +44,8 @@
         <tr>
             <td><?php echo $r['title']; ?></td>
             <td><?php echo $r['rating']; ?></td>
-            <?php endwhile; ?>
+        <?php endwhile; ?>
+
         </tbody>
     </table>
 
@@ -56,7 +57,7 @@
 
     $q = $conn->query($sql);
 
-    $q->setFetchMode(PDO::FETCH_ASSOC);
+$q->setFetchMode(PDO::FETCH_ASSOC);
     ?>
 
     <h2>Films</h2>
