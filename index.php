@@ -58,7 +58,7 @@
     $q = $conn->query($sql);
 
 $q->setFetchMode(PDO::FETCH_ASSOC);
-    ?>
+?>
 
     <h2>Films</h2>
 
